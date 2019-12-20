@@ -1,0 +1,23 @@
+{
+  "name": "notebook-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msotomayor95/Notebook-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msotomayor95/Notebook-app/issues"
+  },
+  "homepage": "https://github.com/msotomayor95/Notebook-app#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "yargs": "^15.0.2"
+  }
+}
