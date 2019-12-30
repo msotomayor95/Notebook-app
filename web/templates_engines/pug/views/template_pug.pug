@@ -1,0 +1,14 @@
+html
+    head
+        title=Title
+        link(href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh", crossorigin="anonymous")
+    body
+        div.container
+            h1=msg
+
+            table.table.table-striped
+                for p in people
+                    tr
+                        td= p.id
+                        td
+                            a(href="/persona/"+p.id) #{p.name}
